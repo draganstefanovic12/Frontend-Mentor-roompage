@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap)
+
+$main-font: "League Spartan", sans-serif
+
+@mixin background()
+    background-repeat: none
+    background-size: 100% 100%
+
+*
+    font-family: $main-font
+    box-sizing: border-box
+
+body
+    margin: 0
+    min-height: 100vh
+    .main
+        display: grid
+        grid-template-columns: 30% 32.5% 7.5% 30%
+        grid-template-rows: 70% 30%
+        min-height: 100vh
+        .top-left
+            grid-column: 1 / 3
+            grid-row: 1
+            @include background
+            padding: 3em
+            nav
+                display: flex
+                align-items: center
+                padding-bottom: 1em
+                a
+                    &:hover
+                        border-bottom: 0.2em white solid
+            nav > *
+                margin-right: 4em
+                height: 2em
+                text-decoration: none
+                color: white
+            img
+                align-self: flex-start
+                height: 1em
+        .top-right
+            display: grid
+            grid-column: 3 / 5
+            grid-row: 1
+            grid-template-rows: 90% 10%
+            .arrows
+                display: flex
+                justify-content: center
+                background-color: black
+                height: 100%
+                width: 20%
+                align-self: flex-end
+                align-items: center
+                gap: 50%
+            .section
+                display: flex
+                flex-direction: column
+                padding: 9em
+                h1
+                    font-size: 2.5em
+                    margin-bottom: 0
+                p
+                    padding-top: 1em
+                    padding-bottom: 1em
+                    line-height: 1.4em
+                    height: 10em
+                    color: hsl(0, 0%, 63%)
+                button
+                    width: 15em
+                    font-weight: 700
+                    justify-self: flex-start
+                    background-color: white
+                    border: none
+                    word-spacing: 1em
+                    text-align: start
+                    padding-left: 0
+                    &:hover
+                        cursor: pointer
+                img
+                    height: 0.6em
+            img
+                justify-self: center
+                width: 7%
+                height: 27.5%
+                &:hover
+                    cursor: pointer
+
+        .bottom-left
+            grid-column: 1
+            grid-row: 2
+            background-image: url("./../assets/image-about-dark.jpg")
+            @include background
+        .bottom-middle
+            display: flex
+            flex-direction: column
+            grid-column: 2 / 4
+            grid-row: 2
+            padding: 3em
+            justify-content: center
+            h2
+                font-size: 1.4em
+                margin-bottom: 0
+            p
+                line-height: 1.4em
+                color: hsl(0, 0%, 63%)
+
+            .gap
+                margin-right: 1em
+                margin-left: 1em
+        .bottom-right
+            grid-column: 4
+            grid-row: 2
+            background-image: url("./../assets/image-about-light.jpg")
+            @include background
