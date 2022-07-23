@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Room-homepage/static/css/main.8cf34102.css",
+    "main.js": "/Room-homepage/static/js/main.86b7ca78.js",
+    "static/media/desktop-image-hero-1.jpg": "/Room-homepage/static/media/desktop-image-hero-1.91901d0d47ea68db9434.jpg",
+    "static/media/desktop-image-hero-3.jpg": "/Room-homepage/static/media/desktop-image-hero-3.05fd679aa0d31e01c176.jpg",
+    "static/media/desktop-image-hero-2.jpg": "/Room-homepage/static/media/desktop-image-hero-2.9d35405672f4fca67945.jpg",
+    "static/media/image-about-dark.jpg": "/Room-homepage/static/media/image-about-dark.329bbc446c27ddf69d0f.jpg",
+    "static/media/logo.svg": "/Room-homepage/static/media/logo.8fad054264a8e979d2bbe8ac73867178.svg",
+    "index.html": "/Room-homepage/index.html",
+    "static/media/icon-arrow.svg": "/Room-homepage/static/media/icon-arrow.84087786c5e572d7f27f2672642badd5.svg",
+    "static/media/icon-hamburger.svg": "/Room-homepage/static/media/icon-hamburger.dc022bac537a273572af58dec556ed7e.svg",
+    "static/media/icon-angle-left.svg": "/Room-homepage/static/media/icon-angle-left.d53877dfd9c6774a68749ad0239b4ce1.svg",
+    "static/media/icon-angle-right.svg": "/Room-homepage/static/media/icon-angle-right.0ed3f81fbd14b3bd61d875b7df144e4c.svg",
+    "main.8cf34102.css.map": "/Room-homepage/static/css/main.8cf34102.css.map",
+    "main.86b7ca78.js.map": "/Room-homepage/static/js/main.86b7ca78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8cf34102.css",
+    "static/js/main.86b7ca78.js"
+  ]
+}
