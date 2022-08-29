@@ -6,4 +6,6 @@ Tech used:
 - React
 - SASS
 
+<a href="https://draganstefanovic12.github.io/Room-homepage/">Live Project</a>
+
 ![alt text](https://i.imgur.com/gcCVuxN.png)
