@@ -5,3 +5,5 @@ Another Frontend Mentor challenge I completed, this time around the challenge wa
 Tech used:
 - React
 - SASS
+
+![alt text](https://i.imgur.com/gcCVuxN.png)
